@@ -1,0 +1,23 @@
+api-testing vscode extension
+
+
+job-finder web scraper (python maybe)
+
+pdf-editor to edit pdf with answers to the questiosn( ai api, js)
+
+Some sort of discord bot( not decided)
+
+Phone to laptop image transfer (idk how to implement rn will learn, maybe server to handle req and gen qrcode for phone to scan and upload)
+
+canvas ai assitant(Hard Project) - Concept
+A bot that connects to your Canvas courses and automatically:
+Fetches all files, announcements, and assignments
+Summarizes uploaded lecture notes or PDFs
+Gives you a study plan or key takeaways for each course
+Alerts you about upcoming deadlines
+
+Something relate to python opencv()
+
+AI Command Line Helper: A terminal tool where you type: ai explain "grep -r pattern./src" It returns a human explanation of the shell command. Add autocomplete for Linux commands too. (Python or nodejs)
+
+FIle encruption decruyption(java)
