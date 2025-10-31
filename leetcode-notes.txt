@@ -1,0 +1,3 @@
+notes for leetcode and data structures
+
+
