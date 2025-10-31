@@ -31,6 +31,14 @@ operations are slow, so better to use string reversal like
             return s == s[::-1] after checking for no negatives
 
 
+4. Roman to Integer (#13) Summary:
+Create a dictionary to map each Roman numeral character to its integer value.
+Iterate through the string, checking each numeral against the one that comes after it.
+If the current numeral is smaller than the next, subtract its value to handle cases like IV or IX; otherwise, add it.
+Accumulate the values in a result variable as you loop through the string.
+Return the total, which gives the correct integer representation of the Roman numeral.
+
+
 
 
 
