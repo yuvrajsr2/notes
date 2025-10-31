@@ -2,7 +2,7 @@ notes for leetcode and data structures
 
 
 
-1. two sum : Concept: Hash map + complement lookup
+1. two sum(easy) : Concept: Hash map + complement lookup
 Logic:
 For each number, calculate target - num
 If that value already exists in the dictionary → return both indices
@@ -10,6 +10,20 @@ Else, store current number and index
 Time: O(n)
 Space: O(n)
 Pattern: Hash map lookup (complement trick)
+
+
+2. The Two Sneaky Numbers of Digitville(easy) : Concept: Hash map / set for duplicate detection
+Logic:
+Track numbers seen so far (with a set or array)
+Loop through the list:
+If number already seen → it’s a duplicate → store it
+Else → add number to seen
+Return the two duplicates
+Time Complexity:
+Using list for seen → O(n²)
+Using set or array → O(n)
+Space Complexit: O(n)
+Pattern: Counting / duplicate detection using a hash map or frequency array
 
 
 
