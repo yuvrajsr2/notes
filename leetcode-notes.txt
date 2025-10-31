@@ -1,3 +1,18 @@
 notes for leetcode and data structures
 
 
+
+1. two sum : Concept: Hash map + complement lookup
+Logic:
+For each number, calculate target - num
+If that value already exists in the dictionary → return both indices
+Else, store current number and index
+Time: O(n)
+Space: O(n)
+Pattern: Hash map lookup (complement trick)
+
+
+
+
+
+
