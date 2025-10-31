@@ -25,6 +25,10 @@ Using set or array → O(n)
 Space Complexit: O(n)
 Pattern: Counting / duplicate detection using a hash map or frequency array
 
+3. Palindome number (Easy) : FIrst used % and // operations to reverse any number not negative and it worked but it says it slow because python
+operations are slow, so better to use string reversal like 
+            s = str(X)
+            return s == s[::-1] after checking for no negatives
 
 
 
