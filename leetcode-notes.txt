@@ -1,6 +1,9 @@
 notes for leetcode and data structures
 
 
+new plan - watch leetcode vid and write notes to solve the problems.
+
+
 
 1. two sum(easy) : Concept: Hash map + complement lookup
 Logic:
